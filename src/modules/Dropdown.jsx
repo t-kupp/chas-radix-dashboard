@@ -1,5 +1,6 @@
 import { DropdownMenu } from '@radix-ui/themes';
 import avatar from '../assets/avatar.png';
+import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
 
 export default function Dropdown() {
   return (
@@ -7,7 +8,7 @@ export default function Dropdown() {
       <DropdownMenu.Trigger>
         <img
           src={avatar}
-          className='max-h-8 cursor-pointer rounded-full'
+          className='max-w-9 cursor-pointer rounded-full'
           alt='avatar'
         />
       </DropdownMenu.Trigger>
@@ -16,6 +17,12 @@ export default function Dropdown() {
         <DropdownMenu.Item className='!text-xs text-slate-500'>
           alicia.koch@email.com
         </DropdownMenu.Item>
+        <div className='!block sm:!hidden'>
+          <DropdownMenu.Separator />
+          <DropdownMenu.Item shortcut={<MagnifyingGlassIcon />}>
+            Search...
+          </DropdownMenu.Item>
+        </div>
         <DropdownMenu.Separator />
         <DropdownMenu.Item shortcut='⇧⌘P'>Profile</DropdownMenu.Item>
         <DropdownMenu.Item shortcut='⌘B'>Billing</DropdownMenu.Item>

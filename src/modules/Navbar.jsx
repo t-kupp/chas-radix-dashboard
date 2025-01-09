@@ -9,7 +9,7 @@ export default function Navbar({ onToggle, theme }) {
     <div className='flex w-full items-center gap-4 p-4'>
       <SelectMenu />
       <NavLinks />
-      <div className='ml-auto flex gap-4'>
+      <div className='ml-auto flex items-center gap-4'>
         <Searchbar />
         <ThemeButton onToggle={onToggle} theme={theme} />
         <Dropdown />

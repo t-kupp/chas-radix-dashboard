@@ -10,13 +10,13 @@ export default function Dashboard() {
   return (
     <div className='p-4 sm:p-6 md:p-8'>
       <div className='flex items-center'>
-        <h1 className='text-3xl font-bold'>Dashboard</h1>
+        <h1 className='text-2xl font-bold sm:text-3xl'>Dashboard</h1>
         <div className='ml-auto flex gap-4'>
           <WeekDisplay />
-          <Button className='!hidden sm:!block' highContrast>
+          <Button variant='outline' className='!hidden sm:!block'>
             Download
           </Button>
-          <Button className='!block sm:!hidden' highContrast>
+          <Button variant='outline' className='!block sm:!hidden'>
             <DownloadIcon />
           </Button>
         </div>

@@ -5,7 +5,7 @@ import { Card, Separator } from '@radix-ui/themes';
 
 function App({ onToggle, theme }) {
   return (
-    <div className='!p-8'>
+    <div className='p-0 sm:p-4 lg:p-8'>
       <Card className='mx-auto max-w-7xl rounded-lg !p-0'>
         <Navbar onToggle={onToggle} theme={theme} />
         <Separator size='4' />
