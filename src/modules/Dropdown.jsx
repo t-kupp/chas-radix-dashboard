@@ -5,7 +5,11 @@ export default function Dropdown() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
-        <img src={avatar} className='max-h-8 cursor-pointer' alt='avatar' />
+        <img
+          src={avatar}
+          className='max-h-8 cursor-pointer rounded-full'
+          alt='avatar'
+        />
       </DropdownMenu.Trigger>
       <DropdownMenu.Content>
         <DropdownMenu.Item>Alicia Koch</DropdownMenu.Item>

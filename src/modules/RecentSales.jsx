@@ -65,7 +65,11 @@ function SalesList() {
       {salesData.map((sale) => {
         return (
           <div key={sale.id} className='my-8 flex items-center'>
-            <img src={sale.avatar} alt='' className='mr-4 max-h-9' />
+            <img
+              src={sale.avatar}
+              alt=''
+              className='mr-4 max-h-9 rounded-full'
+            />
             <div>
               <Text weight='medium' size='2' as='div'>
                 {sale.name}
