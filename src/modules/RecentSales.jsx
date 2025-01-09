@@ -1,4 +1,9 @@
 import { Text, Card } from '@radix-ui/themes';
+import sale0 from '../assets/sale0.png';
+import sale1 from '../assets/sale1.png';
+import sale2 from '../assets/sale2.png';
+import sale3 from '../assets/sale3.png';
+import sale4 from '../assets/sale4.png';
 
 export default function RecentSales() {
   return (
@@ -20,35 +25,35 @@ function SalesList() {
   const salesData = [
     {
       id: 0,
-      avatar: '/src/assets/sale0.png',
+      avatar: sale0,
       name: 'Olivia Martin',
       email: 'olivia.martin@email.com',
       salesValue: '+$1,999.00',
     },
     {
       id: 1,
-      avatar: '/src/assets//sale1.png',
+      avatar: sale1,
       name: 'Jackson Lee',
       email: 'jackson.lee@email.com',
       salesValue: '+$39.00',
     },
     {
       id: 2,
-      avatar: '/src/assets//sale2.png',
+      avatar: sale2,
       name: 'Isabella Nguyen',
       email: 'isabella.nguyen@email.com',
       salesValue: '+$299.00',
     },
     {
       id: 3,
-      avatar: '/src/assets//sale3.png',
+      avatar: sale3,
       name: 'William Kim',
       email: 'william.kim@email.com',
       salesValue: '+$99.00',
     },
     {
       id: 4,
-      avatar: '/src/assets//sale4.png',
+      avatar: sale4,
       name: 'Sofia Davis',
       email: 'sofia.davis@email.com',
       salesValue: '+$39.00',

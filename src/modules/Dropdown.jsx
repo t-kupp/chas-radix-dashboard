@@ -1,14 +1,11 @@
 import { DropdownMenu } from '@radix-ui/themes';
+import avatar from '../assets/avatar.png';
 
 export default function Dropdown() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
-        <img
-          src='/src/assets/avatar.png'
-          className='max-h-8 cursor-pointer'
-          alt='avatar'
-        />
+        <img src={avatar} className='max-h-8 cursor-pointer' alt='avatar' />
       </DropdownMenu.Trigger>
       <DropdownMenu.Content>
         <DropdownMenu.Item>Alicia Koch</DropdownMenu.Item>
