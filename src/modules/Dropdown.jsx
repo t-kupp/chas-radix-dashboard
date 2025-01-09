@@ -5,7 +5,7 @@ export default function Dropdown() {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
         <img
-          src='/public/avatar.png'
+          src='/src/assets/avatar.png'
           className='max-h-8 cursor-pointer'
           alt='avatar'
         />
